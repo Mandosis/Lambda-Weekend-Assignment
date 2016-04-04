@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background: #EEE;
+  color: #333;
+  margin: 0;
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: #000;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 5px #888888;
+  z-index: 100;
+  color: #FFF;
+}
+
+.logo {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: -10px;
+  margin-right: 10px;
+  font-family: 'Pacifico', cursive;
+}
+
+.search {
+  min-width: 700px;
+  margin-top: 20px;
+}
+
+button {
+  height: 40px;
+  min-width: 100px;
+  background: teal;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  padding: 5px;
+  outline: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="search"] {
+  min-width: 600px;
+  height: 40px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  color: #333;
+  background: #FFF;
+  border-radius: 3px 0 0 3px;
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;;
+  justify-content: center;
+}
+
+.movie {
+  margin: 10px;
+  display: inline;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #888888;
+  max-height: 400px;
+  display: flex;
+}
+
+.movie h1 {
+  border-bottom: 2px solid #222;
+  margin: 0;
+}
+
+.poster {
+  max-height: 400px;
+  width: 270px;
+  z-index: 10;
+}
+
+.info {
+  background: #333;
+  color: #EEE;
+  height: 380px;
+  width: 240px;
+  max-height: 380px;
+  padding: 10px;
+  font-size: 14px;
+  display: none;
+  margin-left: -250px;
+  line-height: 15px;
+}
+
+.info h1 {
+  color: #FFF;
+  font-weight: 700;
+  margin: 0;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  line-height: normal;
+}
+
+.info span {
+  color: lightblue;
+}

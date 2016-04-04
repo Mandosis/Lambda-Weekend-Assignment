@@ -11,5 +11,5 @@ http://www.omdbapi.com/?t=Lord+Of+The+Rings&y=&plot=short&r=json
 ## Hard Mode
 Add jQuery animations to hide and show information about the movies.
 
-##Pro Mode
+## Pro Mode
 Allow user to search and add more movies.
