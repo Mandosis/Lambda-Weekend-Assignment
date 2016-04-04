@@ -27,7 +27,7 @@ $(function() {
       // Clear textbox
       $('input').val("");
 
-      // Get the gifs
+      // Get the movies
       addMovie(search);
     }
   });
